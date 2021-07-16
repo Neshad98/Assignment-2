@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: right 300px;
+
     
     
 }
@@ -11,6 +13,7 @@ body{
     margin-left: 30px;
     height: 677px;
     position:relative;
+    margin-right: 200px;
     
     
     
@@ -19,10 +22,11 @@ body{
 nav ul{
     display: flex;
     border: 3px solid red ;
+    
 
 }
 nav ul span{
-    position: relative;
+    /* position: relative; */
     left: 1000px;
     background-color: #E02C6D;
     height: 44px;
@@ -31,20 +35,15 @@ nav ul span{
 nav li {
     list-style: none;
     
+    
     margin-right: 30px;
     margin-top: 42px;
     padding: 0 20px;
 }
 
-nav li:hover  {
-    background-color: lightgreen;
-    height: 30px;
+
 }
-nav li a{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 500;
+
 
 }
 nav ul li .login{
@@ -92,20 +91,109 @@ nav ul li .login{
     
     height: 30px;
     padding: 10px;
+    position: relative;
+    left: 900px;
 }
 .player-part{
     margin-left: 180px;
     margin-top: 70px;
 }
-.neymar{
+
+nav ul li a{
+    text-decoration: none;
+    color: red;
+}
+.name{
+    position: relative;
+    bottom: -180px;
+    
+}
+.player-info{
+    position: relative;
+    bottom: -180px;
+    text-align:left
+    width: 200px;
+}
+
+
+/*---------------top players style
+-----------------------------------*/ 
+
+.players{
     display: grid;
-    width: 100px;
-    height: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    height: 474px;
+    width: 330px;
+    position: relative; 
+    left: 150px;
+    
+    
     
 }
-.neymar-info{
+.player img{
     width: 300px;
-    height: 60px;
+    height: 256px;
 }
+.player{
+    border: lightgrey 1px solid;
+    box-shadow:20px 20px 50px grey;
+    margin: 30px;
+    padding: 15px;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+/* botttom style*/
+.heading2{
+    position: absolute;
+    width: 469px;
+    height: 309px;
+    left: 182px;
+    top: 3550px;
+}
+.heading2 h1{
+    font-size: 48px;
+}
+.matchpic img{
     
+        position: relative;
+        width: 567px;
+        height: 427px;
+        left: 1000px;
+        bottom: 350px;
+        
+}
+
+.logo img{
+    width: 483px;
+    height: 110px;
+}
+
+.social-icons img{
+    width: 32px;
+    height: 32px;
+}
+
+.last-part{
+    
+    position: relative;
+width: 483.87px;
+height: 213px;
+left: 550px;
+top: 2900px;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+.watchnow a{
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
 
